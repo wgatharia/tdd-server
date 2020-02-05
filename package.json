@@ -1,7 +1,11 @@
 {
   "name": "tdd-es6",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple es6 tdd.",
+  "repository": {
+    "url": "https://github.com/wgatharia/tdd-server.git",
+    "type": "git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test npx mocha \"src/**/*.test.js\" --recursive --require @babel/register --file src/mocha-setup.js",
